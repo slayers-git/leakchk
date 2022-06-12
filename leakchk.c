@@ -54,9 +54,6 @@ struct lc_block {
         const char *function;
 #   endif
 
-    /* the address of the function the allocation happened in */
-    void *func_addr;
-
     const char *file;
     unsigned    line;
 #endif
